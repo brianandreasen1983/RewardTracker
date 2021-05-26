@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01D1EDE3D9279832E9DAAEBB /* Pods_RewardTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F04C3A931729C3D709AA8BF4 /* Pods_RewardTrackerTests.framework */; };
+		088F820D38C3F34874FBD7C4 /* Pods_RewardTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A48FF045ACFB385FB9979D /* Pods_RewardTracker.framework */; };
 		4ADE3C02265EAE76002E5E4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADE3C01265EAE76002E5E4C /* AppDelegate.swift */; };
 		4ADE3C04265EAE76002E5E4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADE3C03265EAE76002E5E4C /* SceneDelegate.swift */; };
 		4ADE3C06265EAE76002E5E4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADE3C05265EAE76002E5E4C /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		4ADE3C0E265EAE77002E5E4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE3C0C265EAE77002E5E4C /* LaunchScreen.storyboard */; };
 		4ADE3C19265EAE77002E5E4C /* RewardTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADE3C18265EAE77002E5E4C /* RewardTrackerTests.swift */; };
 		4ADE3C24265EAE77002E5E4C /* RewardTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADE3C23265EAE77002E5E4C /* RewardTrackerUITests.swift */; };
+		7C7704642B14D3DC93F43AAA /* Pods_RewardTracker_RewardTrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD9F5E9CE654154F8CE12A8 /* Pods_RewardTracker_RewardTrackerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C8F978B3CD696EED8B53CF5 /* Pods-RewardTracker-RewardTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RewardTracker-RewardTrackerUITests.release.xcconfig"; path = "Target Support Files/Pods-RewardTracker-RewardTrackerUITests/Pods-RewardTracker-RewardTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2B75F0C1B47E41DA6B05D474 /* Pods-RewardTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RewardTrackerTests.debug.xcconfig"; path = "Target Support Files/Pods-RewardTrackerTests/Pods-RewardTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		35992A57AF1905065E0A2DCA /* Pods-RewardTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RewardTracker.release.xcconfig"; path = "Target Support Files/Pods-RewardTracker/Pods-RewardTracker.release.xcconfig"; sourceTree = "<group>"; };
 		4ADE3BFE265EAE76002E5E4C /* RewardTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RewardTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADE3C01265EAE76002E5E4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ADE3C03265EAE76002E5E4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		4ADE3C1F265EAE77002E5E4C /* RewardTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RewardTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADE3C23265EAE77002E5E4C /* RewardTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardTrackerUITests.swift; sourceTree = "<group>"; };
 		4ADE3C25265EAE77002E5E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DD9F5E9CE654154F8CE12A8 /* Pods_RewardTracker_RewardTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RewardTracker_RewardTrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B5439BA6F032F0AC86D7723 /* Pods-RewardTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RewardTracker.debug.xcconfig"; path = "Target Support Files/Pods-RewardTracker/Pods-RewardTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		773D1E2D6701ED4DE31DF942 /* Pods-RewardTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RewardTrackerTests.release.xcconfig"; path = "Target Support Files/Pods-RewardTrackerTests/Pods-RewardTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		C5FD71F9361A36D92836F075 /* Pods-RewardTracker-RewardTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RewardTracker-RewardTrackerUITests.debug.xcconfig"; path = "Target Support Files/Pods-RewardTracker-RewardTrackerUITests/Pods-RewardTracker-RewardTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4A48FF045ACFB385FB9979D /* Pods_RewardTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RewardTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F04C3A931729C3D709AA8BF4 /* Pods_RewardTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RewardTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				088F820D38C3F34874FBD7C4 /* Pods_RewardTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01D1EDE3D9279832E9DAAEBB /* Pods_RewardTrackerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C7704642B14D3DC93F43AAA /* Pods_RewardTracker_RewardTrackerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F2D18049DC62C9237E707BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B5439BA6F032F0AC86D7723 /* Pods-RewardTracker.debug.xcconfig */,
+				35992A57AF1905065E0A2DCA /* Pods-RewardTracker.release.xcconfig */,
+				C5FD71F9361A36D92836F075 /* Pods-RewardTracker-RewardTrackerUITests.debug.xcconfig */,
+				0C8F978B3CD696EED8B53CF5 /* Pods-RewardTracker-RewardTrackerUITests.release.xcconfig */,
+				2B75F0C1B47E41DA6B05D474 /* Pods-RewardTrackerTests.debug.xcconfig */,
+				773D1E2D6701ED4DE31DF942 /* Pods-RewardTrackerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4ADE3BF5265EAE76002E5E4C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				4ADE3C17265EAE77002E5E4C /* RewardTrackerTests */,
 				4ADE3C22265EAE77002E5E4C /* RewardTrackerUITests */,
 				4ADE3BFF265EAE76002E5E4C /* Products */,
+				3F2D18049DC62C9237E707BF /* Pods */,
+				A68BAEADA92186256313B789 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +130,12 @@
 		4ADE3C00265EAE76002E5E4C /* RewardTracker */ = {
 			isa = PBXGroup;
 			children = (
-				4ADE3C01265EAE76002E5E4C /* AppDelegate.swift */,
-				4ADE3C03265EAE76002E5E4C /* SceneDelegate.swift */,
-				4ADE3C05265EAE76002E5E4C /* ViewController.swift */,
-				4ADE3C07265EAE76002E5E4C /* Main.storyboard */,
-				4ADE3C0A265EAE77002E5E4C /* Assets.xcassets */,
-				4ADE3C0C265EAE77002E5E4C /* LaunchScreen.storyboard */,
 				4ADE3C0F265EAE77002E5E4C /* Info.plist */,
+				4ADE3C38265EAEF0002E5E4C /* SupportingFiles */,
+				4ADE3C37265EAEE6002E5E4C /* Networking */,
+				4ADE3C36265EAEE0002E5E4C /* Controllers */,
+				4ADE3C35265EAED8002E5E4C /* Views */,
+				4ADE3C34265EAED2002E5E4C /* Models */,
 			);
 			path = RewardTracker;
 			sourceTree = "<group>";
@@ -128,6 +158,57 @@
 			path = RewardTrackerUITests;
 			sourceTree = "<group>";
 		};
+		4ADE3C34265EAED2002E5E4C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4ADE3C35265EAED8002E5E4C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4ADE3C07265EAE76002E5E4C /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4ADE3C36265EAEE0002E5E4C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4ADE3C05265EAE76002E5E4C /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4ADE3C37265EAEE6002E5E4C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		4ADE3C38265EAEF0002E5E4C /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4ADE3C0A265EAE77002E5E4C /* Assets.xcassets */,
+				4ADE3C0C265EAE77002E5E4C /* LaunchScreen.storyboard */,
+				4ADE3C01265EAE76002E5E4C /* AppDelegate.swift */,
+				4ADE3C03265EAE76002E5E4C /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		A68BAEADA92186256313B789 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4A48FF045ACFB385FB9979D /* Pods_RewardTracker.framework */,
+				5DD9F5E9CE654154F8CE12A8 /* Pods_RewardTracker_RewardTrackerUITests.framework */,
+				F04C3A931729C3D709AA8BF4 /* Pods_RewardTrackerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4ADE3C28265EAE77002E5E4C /* Build configuration list for PBXNativeTarget "RewardTracker" */;
 			buildPhases = (
+				074D633ABABD5EBD61217F93 /* [CP] Check Pods Manifest.lock */,
 				4ADE3BFA265EAE76002E5E4C /* Sources */,
 				4ADE3BFB265EAE76002E5E4C /* Frameworks */,
 				4ADE3BFC265EAE76002E5E4C /* Resources */,
+				0AD7C5D16C8A807871F542B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +235,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4ADE3C2B265EAE77002E5E4C /* Build configuration list for PBXNativeTarget "RewardTrackerTests" */;
 			buildPhases = (
+				EB92806B5B10B0FA5779C8A3 /* [CP] Check Pods Manifest.lock */,
 				4ADE3C10265EAE77002E5E4C /* Sources */,
 				4ADE3C11265EAE77002E5E4C /* Frameworks */,
 				4ADE3C12265EAE77002E5E4C /* Resources */,
@@ -170,9 +254,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4ADE3C2E265EAE77002E5E4C /* Build configuration list for PBXNativeTarget "RewardTrackerUITests" */;
 			buildPhases = (
+				F4C0F321DA5BB090F6BEFE8C /* [CP] Check Pods Manifest.lock */,
 				4ADE3C1B265EAE77002E5E4C /* Sources */,
 				4ADE3C1C265EAE77002E5E4C /* Frameworks */,
 				4ADE3C1D265EAE77002E5E4C /* Resources */,
+				FF10E42875D9E1772EB7380B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +338,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		074D633ABABD5EBD61217F93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RewardTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0AD7C5D16C8A807871F542B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RewardTracker/Pods-RewardTracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RewardTracker/Pods-RewardTracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RewardTracker/Pods-RewardTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB92806B5B10B0FA5779C8A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RewardTrackerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4C0F321DA5BB090F6BEFE8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RewardTracker-RewardTrackerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF10E42875D9E1772EB7380B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RewardTracker-RewardTrackerUITests/Pods-RewardTracker-RewardTrackerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RewardTracker-RewardTrackerUITests/Pods-RewardTracker-RewardTrackerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RewardTracker-RewardTrackerUITests/Pods-RewardTracker-RewardTrackerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4ADE3BFA265EAE76002E5E4C /* Sources */ = {
@@ -433,6 +622,7 @@
 		};
 		4ADE3C29265EAE77002E5E4C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B5439BA6F032F0AC86D7723 /* Pods-RewardTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +642,7 @@
 		};
 		4ADE3C2A265EAE77002E5E4C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35992A57AF1905065E0A2DCA /* Pods-RewardTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +662,7 @@
 		};
 		4ADE3C2C265EAE77002E5E4C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B75F0C1B47E41DA6B05D474 /* Pods-RewardTrackerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +685,7 @@
 		};
 		4ADE3C2D265EAE77002E5E4C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 773D1E2D6701ED4DE31DF942 /* Pods-RewardTrackerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +708,7 @@
 		};
 		4ADE3C2F265EAE77002E5E4C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5FD71F9361A36D92836F075 /* Pods-RewardTracker-RewardTrackerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +729,7 @@
 		};
 		4ADE3C30265EAE77002E5E4C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C8F978B3CD696EED8B53CF5 /* Pods-RewardTracker-RewardTrackerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
